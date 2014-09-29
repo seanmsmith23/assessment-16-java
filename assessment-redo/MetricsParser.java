@@ -12,7 +12,7 @@ public class MetricsParser
         fileName = file;
     }
 
-    public ArrayList<HashMap<String,String>> readingTheFile() {
+    public ArrayList<HashMap<String,String>> parsingTheFile() {
             ArrayList<HashMap<String, String>> parsedMetrics = new ArrayList<HashMap<String, String>>();
         try {
             FileReader inputFile = new FileReader(fileName);
